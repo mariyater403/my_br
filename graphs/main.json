@@ -1,4 +1,5 @@
 {
+    "caseSensitive": false,
     "properties": {
         "name": "main",
         "environment": {
@@ -26,7 +27,7 @@
             "metadata": {
                 "label": "core/Output",
                 "x": 432,
-                "y": 360,
+                "y": 432,
                 "width": 72,
                 "height": 72
             }
@@ -35,8 +36,8 @@
             "component": "dom/WriteHtml",
             "metadata": {
                 "label": "dom/WriteHtml",
-                "x": 684,
-                "y": 288,
+                "x": 720,
+                "y": 324,
                 "width": 72,
                 "height": 72
             }
@@ -46,7 +47,7 @@
             "metadata": {
                 "label": "dom/GetElement",
                 "x": 252,
-                "y": 288,
+                "y": 324,
                 "width": 72,
                 "height": 72
             }
@@ -65,8 +66,8 @@
             "component": "core/Kick",
             "metadata": {
                 "label": "core/Kick",
-                "x": 576,
-                "y": 180,
+                "x": 612,
+                "y": 144,
                 "width": 72,
                 "height": 72
             }
@@ -81,8 +82,7 @@
             "tgt": {
                 "process": "dom/WriteHtml_fpz6j",
                 "port": "container"
-            },
-            "metadata": {}
+            }
         },
         {
             "src": {
@@ -131,8 +131,7 @@
             "tgt": {
                 "process": "core/Kick_ey1nh",
                 "port": "in"
-            },
-            "metadata": {}
+            }
         },
         {
             "src": {
@@ -142,8 +141,7 @@
             "tgt": {
                 "process": "dom/WriteHtml_fpz6j",
                 "port": "html"
-            },
-            "metadata": {}
+            }
         },
         {
             "data": "#button",

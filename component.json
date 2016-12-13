@@ -11,7 +11,7 @@
     "noflo/noflo-core": "*",
     "noflo/noflo-interaction": "*",
     "noflo/noflo-runtime-webrtc": "*",
-	"noflo/noflo-csv": "*"
+	"sirwobin/noflo-csv": "*"
   },
   "remotes": [
     "https://raw.githubusercontent.com"

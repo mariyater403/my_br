@@ -31,7 +31,7 @@
     },
     "components": {
       "DoSomething": "components/DoSomething.coffee",
-      "DoSomething2": "noflo-csv/components/ConvertCsvToMatrix.coffee"
+      "DoSomething2": "components/noflo-csv/components/ConvertCsvToMatrix.coffee"
     }
   }
 }

@@ -30,7 +30,8 @@
       "main": "graphs/main.json"
     },
     "components": {
-      "DoSomething": "components/DoSomething.coffee"
+      "DoSomething": "components/DoSomething.coffee",
+      "DoSomething2": "noflo-csv/components/ConvertCsvToMatrix.coffee"
     }
   }
 }

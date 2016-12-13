@@ -10,7 +10,7 @@
     "noflo/noflo-dom": "*",
     "noflo/noflo-interaction": "*",
     "noflo/noflo-runtime-webrtc": "*",
-    "sirwobin/noflo-csv": "*"
+    "noflo/noflo-facebook": "*"
   },
   "remotes": [
     "https://raw.githubusercontent.com"

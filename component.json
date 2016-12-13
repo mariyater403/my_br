@@ -8,7 +8,6 @@
   "dependencies": {
     "noflo/noflo": "*",
     "noflo/noflo-dom": "*",
-    "noflo/noflo-core": "*",
     "noflo/noflo-interaction": "*",
     "noflo/noflo-runtime-webrtc": "*",
     "sirwobin/noflo-csv": "*"

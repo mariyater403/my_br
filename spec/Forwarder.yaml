@@ -1,11 +1,11 @@
 noflo = require 'noflo'
 unless noflo.isBrowser()
   chai = require 'chai' unless chai
-  DoSomething = require '../components/DoSomething.coffee'
+  DoSomething = require '../components/Forwarder.coffee'
 else
-  DoSomething = require 'my_br/components/DoSomething.js'
+  DoSomething = require 'my_br/components/Forwarder.coffee'
 
-describe 'DoSomething component', ->
+describe 'Forwarder component', ->
   c = null
   ins = null
   out = null
@@ -18,6 +18,6 @@ describe 'DoSomething component', ->
 
   describe 'when instantiated', ->
     it 'should have an input port', ->
-      chai.expect(c.inPorts.in).to.be.an 'object'
+      chai.expect(c.inPorts.in).to.be.an 'array'
     it 'should have an output port', ->
-      chai.expect(c.outPorts.out).to.be.an 'object'
+      chai.expect(c.outPorts.out).to.be.an 'number'

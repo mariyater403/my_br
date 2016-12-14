@@ -30,6 +30,26 @@
                 "width": 72,
                 "height": 72
             }
+        },
+        "my1/Forwarder_bo8qb": {
+            "component": "my1/Forwarder",
+            "metadata": {
+                "label": "Forwarder",
+                "x": 792,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "my_br/Forwarder_JS_fecr": {
+            "component": "my_br/Forwarder_JS",
+            "metadata": {
+                "label": "Forwarder_JS",
+                "x": 396,
+                "y": 72,
+                "width": 72,
+                "height": 72
+            }
         }
     },
     "connections": []

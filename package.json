@@ -42,7 +42,9 @@
   "noflo": {
     "components": {
       "DoSomething": "components/DoSomething.coffee",
-      "Rcsv": "components/ConvertCsvToMatrix.coffee"
+      "Rcsv": "components/ConvertCsvToMatrix.coffee",
+      "Forwarder": "components/Forwarder.coffee",
+      "Forwarder2": "components/Forwarder_JS.js"
     }
   }
 }

@@ -10,6 +10,27 @@
     "inports": {},
     "outports": {},
     "groups": [],
-    "processes": {},
+    "processes": {
+        "my_br/DoSomething_vca2n": {
+            "component": "my_br/DoSomething",
+            "metadata": {
+                "label": "DoSomething",
+                "x": 324,
+                "y": 216,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "my_br/DoSomething_52v7j": {
+            "component": "my_br/DoSomething",
+            "metadata": {
+                "label": "DoSomething",
+                "x": 540,
+                "y": 216,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
     "connections": []
 }

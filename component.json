@@ -30,7 +30,10 @@
     },
     "components": {
       "DoSomething": "components/DoSomething.coffee",
-      "DoSomething2": "components/noflo-csv/components/ConvertCsvToMatrix.coffee"
+      "DoSomething2": "components/ConvertCsvToMatrix.coffee",
+      "Rcsv": "components/ConvertCsvToMatrix.coffee",
+      "Forwarder": "components/Forwarder.coffee",
+      "Forwarder2": "components/Forwarder_JS.js"
     }
   }
 }
